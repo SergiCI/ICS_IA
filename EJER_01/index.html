@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DreamGym - Transforma tu cuerpo</title>
+    <!-- Enlace a los estilos CSS externos -->
+    <link rel="stylesheet" href="style.css">
+    <!-- Iconos (FontAwesome) -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;800;900&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <!-- CABECERA PRINCIPAL -->
+    <header class="header">
+        <!-- Barra superior de contacto -->
+        <div class="top-bar">
+            <div class="container top-bar-container">
+                <div class="top-contact">
+                    <span><i class="fa-solid fa-phone"></i> +34 900 123 456</span>
+                    <span><i class="fa-solid fa-envelope"></i> info@dreamgym.com</span>
+                </div>
+                <div class="top-social">
+                    <a href="#" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href="#" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#" aria-label="TikTok"><i class="fa-brands fa-tiktok"></i></a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Barra de Navegación -->
+        <nav class="navbar">
+            <div class="container nav-container">
+                <!-- Logotipo -->
+                <a href="#inicio" class="logo">
+                    DREAM<span>GYM</span>
+                </a>
+
+                <!-- Checkbox oculto para controlar el menú en móviles sin JS -->
+                <input type="checkbox" id="menu-toggle" class="menu-toggle">
+                <label for="menu-toggle" class="menu-icon" aria-label="Abrir menú">
+                    <i class="fa-solid fa-bars"></i>
+                </label>
+
+                <!-- Enlaces de navegación -->
+                <ul class="nav-links">
+                    <li><a href="#inicio" class="active">Inicio</a></li>
+                    <li><a href="#actividades">Actividades</a></li>
+                    <li><a href="#horarios">Horarios</a></li>
+                    <li><a href="#tarifas">Tarifas</a></li>
+                    <li><a href="#contacto">Contacto</a></li>
+                    <li class="mobile-cta">
+                        <a href="#unete" class="btn-cta">Únete Ahora</a>
+                    </li>
+                </ul>
+
+                <!-- Botón de acción en escritorio -->
+                <div class="desktop-cta">
+                    <a href="#unete" class="btn-cta">Únete Ahora</a>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- CONTENIDO PRINCIPAL -->
+    <main>
+
+        <!-- SECCIÓN INICIO / HERO -->
+        <section id="inicio" class="hero">
+            <div class="container hero-content">
+                <span class="hero-subtitle">EL MOMENTO ES AHORA</span>
+                <h1>TRANSFORMA TU <br><span>CUERPO Y MENTE</span></h1>
+                <p>Equipamiento de última generación, entrenadores expertos y el ambiente perfecto para superar tus
+                    límites diarios.</p>
+                <div class="hero-buttons">
+                    <a href="#unete" class="btn-cta">Empieza Hoy</a>
+                    <a href="#actividades" class="btn-secondary">Ver Actividades</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- SECCIÓN ACTIVIDADES -->
+        <section id="actividades" class="section activities">
+            <div class="container">
+                <div class="section-title">
+                    <h2>Nuestras <span>Actividades</span></h2>
+                    <p>Clases dirigidas diseñadas para quemar grasa, ganar músculo y mejorar tu resistencia.</p>
+                </div>
+                <div class="activities-grid">
+                    <div class="activity-card">
+                        <div class="activity-icon"><i class="fa-solid fa-dumbbell"></i></div>
+                        <h3>Musculación</h3>
+                        <p>Zona amplia con peso libre, máquinas guiadas y plataformas de halterofilia profesional.</p>
+                    </div>
+                    <div class="activity-card">
+                        <div class="activity-icon"><i class="fa-solid fa-fire-flame-curved"></i></div>
+                        <h3>Crossfit & HIIT</h3>
+                        <p>Entrenamientos de alta intensidad para maximizar la quema de calorías y explosividad.</p>
+                    </div>
+                    <div class="activity-card">
+                        <div class="activity-icon"><i class="fa-solid fa-bicycle"></i></div>
+                        <h3>Indoor Cycling</h3>
+                        <p>Pedalea al ritmo de la mejor música con entrenadores motivadores. Resistencia pura.</p>
+                    </div>
+                    <div class="activity-card">
+                        <div class="activity-icon"><i class="fa-solid fa-hand-fist"></i></div>
+                        <h3>Boxeo y Artes Marciales</h3>
+                        <p>Mejora tu coordinación, descarga tensión y aprende defensa personal en ring oficial.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- SECCIÓN HORARIOS -->
+        <section id="horarios" class="section schedule">
+            <div class="container">
+                <div class="section-title">
+                    <h2>Horarios de <span>Clases</span></h2>
+                    <p>Consulta los horarios semanales de nuestras actividades más populares.</p>
+                </div>
+
+                <div class="schedule-table-wrapper">
+                    <table class="schedule-table">
+                        <thead>
+                            <tr>
+                                <th>Hora</th>
+                                <th>Lunes</th>
+                                <th>Martes</th>
+                                <th>Miércoles</th>
+                                <th>Jueves</th>
+                                <th>Viernes</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>09:00 - 10:00</td>
+                                <td>Crossfit</td>
+                                <td>Cycling</td>
+                                <td>Crossfit</td>
+                                <td>Cycling</td>
+                                <td>HIIT</td>
+                            </tr>
+                            <tr>
+                                <td>11:00 - 12:00</td>
+                                <td>Musculación Guiada</td>
+                                <td>Boxeo</td>
+                                <td>Musculación Guiada</td>
+                                <td>Boxeo</td>
+                                <td>Estiramientos</td>
+                            </tr>
+                            <tr>
+                                <td>17:00 - 18:00</td>
+                                <td>Cycling</td>
+                                <td>Crossfit</td>
+                                <td>Cycling</td>
+                                <td>Crossfit</td>
+                                <td>Boxeo</td>
+                            </tr>
+                            <tr>
+                                <td>19:30 - 20:30</td>
+                                <td>HIIT</td>
+                                <td>Boxeo</td>
+                                <td>HIIT</td>
+                                <td>Boxeo</td>
+                                <td>Crossfit</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </section>
+
+        <!-- SECCIÓN TARIFAS -->
+        <section id="tarifas" class="section pricing">
+            <div class="container">
+                <div class="section-title">
+                    <h2>Nuestras <span>Tarifas</span></h2>
+                    <p>Sin permanencia oculta. Elige el plan que mejor se adapte a tu estilo de vida.</p>
+                </div>
+                <div class="pricing-grid">
+                    <div class="pricing-card">
+                        <h3>Básico</h3>
+                        <div class="price">29€<span>/mes</span></div>
+                        <ul class="pricing-features">
+                            <li><i class="fa-solid fa-check"></i> Acceso libre a Sala Fitness</li>
+                            <li><i class="fa-solid fa-check"></i> Horario completo (L-D)</li>
+                            <li><i class="fa-solid fa-xmark cross"></i> Clases dirigidas</li>
+                            <li><i class="fa-solid fa-xmark cross"></i> Acceso a zona SPA</li>
+                        </ul>
+                        <a href="#unete" class="btn-secondary">Elegir Plan</a>
+                    </div>
+
+                    <div class="pricing-card popular">
+                        <span class="badge">Más Popular</span>
+                        <h3>Total Pro</h3>
+                        <div class="price">45€<span>/mes</span></div>
+                        <ul class="pricing-features">
+                            <li><i class="fa-solid fa-check"></i> Acceso libre a Sala Fitness</li>
+                            <li><i class="fa-solid fa-check"></i> Horario completo (L-D)</li>
+                            <li><i class="fa-solid fa-check"></i> Acceso ilimitado a Clases</li>
+                            <li><i class="fa-solid fa-xmark cross"></i> Acceso a zona SPA</li>
+                        </ul>
+                        <a href="#unete" class="btn-cta">Elegir Plan</a>
+                    </div>
+
+                    <div class="pricing-card">
+                        <h3>VIP Premium</h3>
+                        <div class="price">60€<span>/mes</span></div>
+                        <ul class="pricing-features">
+                            <li><i class="fa-solid fa-check"></i> Acceso libre a Sala Fitness</li>
+                            <li><i class="fa-solid fa-check"></i> Todo incluido en Clases</li>
+                            <li><i class="fa-solid fa-check"></i> Acceso ilimitado a zona SPA</li>
+                            <li><i class="fa-solid fa-check"></i> 1 Sesión mensual con Entrenador</li>
+                        </ul>
+                        <a href="#unete" class="btn-secondary">Elegir Plan</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- SECCIÓN CONTACTO / ÚNETE -->
+        <section id="contacto" class="section contact-section">
+            <div class="container">
+                <div class="section-title" id="unete">
+                    <h2>Empieza tu <span>Cambio</span></h2>
+                    <p>Déjanos tus datos o visítanos directamente en nuestro centro.</p>
+                </div>
+                <div class="contact-grid">
+                    <div class="contact-info">
+                        <h3>¿Dónde estamos?</h3>
+                        <p><i class="fa-solid fa-location-dot"></i> Calle Deporte 45, Madrid</p>
+                        <p><i class="fa-solid fa-phone"></i> +34 900 123 456</p>
+                        <p><i class="fa-solid fa-envelope"></i> info@dreamgym.com</p>
+
+                        <h3 class="mt">Horario del centro</h3>
+                        <p>Lunes a Viernes: 06:00 - 23:00</p>
+                        <p>Sábados y Domingos: 08:00 - 21:00</p>
+                    </div>
+
+                    <form class="contact-form"
+                        onsubmit="event.preventDefault(); alert('¡Gracias por apuntarte! Nos pondremos en contacto contigo.');">
+                        <div class="form-group">
+                            <input type="text" placeholder="Nombre completo" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" placeholder="Correo electrónico" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="tel" placeholder="Teléfono de contacto" required>
+                        </div>
+                        <div class="form-group">
+                            <select required>
+                                <option value="" disabled selected>Selecciona tu tarifa</option>
+                                <option value="basico">Plan Básico (29€/mes)</option>
+                                <option value="pro">Plan Total Pro (45€/mes)</option>
+                                <option value="vip">Plan VIP Premium (60€/mes)</option>
+                            </select>
+                        </div>
+                        <button type="submit" class="btn-cta full-width">¡Apuntarme Ahora!</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- PIE DE PÁGINA -->
+    <footer class="footer">
+        <div class="container footer-container">
+            <div class="footer-col">
+                <a href="#" class="logo">DREAM<span>GYM</span></a>
+                <p>Tu evolución es nuestra meta. El mejor centro de entrenamiento adaptado a tus exigencias.</p>
+            </div>
+            <div class="footer-col">
+                <h4>Enlaces Rápidos</h4>
+                <ul>
+                    <li><a href="#inicio">Inicio</a></li>
+                    <li><a href="#actividades">Actividades</a></li>
+                    <li><a href="#horarios">Horarios</a></li>
+                    <li><a href="#tarifas">Tarifas</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>Síguenos</h4>
+                <div class="footer-social">
+                    <a href="#" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href="#" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#" aria-label="TikTok"><i class="fa-brands fa-tiktok"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 DreamGym. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+
+    <script src="funciones.js"></script>
+</body>
+
+</html>

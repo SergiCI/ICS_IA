@@ -1,0 +1,4 @@
+voy a crear una página sobre un gym llamado dreamgym y 
+quiero que me hagas la cabecera usando puramente html y css sin uso de ningun framework
+
+bien ahora continua con la pagina creando el resto de la pagina con el mismo estilo y manten lo de puramente html y css
