@@ -7,6 +7,7 @@
 // TypeScript añade TIPADO ESTÁTICO a JavaScript: le decimos qué tipo
 // de dato puede contener una variable y el compilador nos avisa si
 // intentamos asignarle un valor de otro tipo.
+Object.defineProperty(exports, "__esModule", { value: true });
 // Sin indicar el tipo explícitamente, TypeScript lo INFIERE a partir
 // del valor inicial. Aquí infiere que "miNumero" es de tipo number.
 let miNumero = 10;
@@ -30,3 +31,4 @@ console.log(miNumero, otroNumero);
 // 3. Pasa el ratón por encima para leer el mensaje de error
 // 4. Ejecuta "npx tsc --noEmit" en la terminal para verlo también
 //    desde la línea de comandos
+//# sourceMappingURL=01_tipo_number.js.map
