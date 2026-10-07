@@ -1,0 +1,15 @@
+body { font-family: system-ui, sans-serif; margin: 0; background: #f6f4ee; color: #1c2027; }
+.layout { display: flex; min-height: 100vh; }
+nav { width: 320px; background: #14181f; padding: 16px; display: flex; flex-direction: column; gap: 6px; }
+nav h1 { color: #eceae4; font-size: 18px; margin: 0 0 8px; }
+nav button { text-align: left; background: transparent; color: #b4b9c2; border: 0; padding: 8px 10px; border-radius: 6px; cursor: pointer; font-size: 14px; }
+nav button.activo { background: #2563eb; color: #fff; }
+main { flex: 1; padding: 32px 48px; }
+.ejemplo { background: #fff; border: 1px solid #d9dce2; border-radius: 12px; padding: 24px; max-width: 640px; }
+.ejemplo h2 { margin-top: 0; }
+.nota { color: #6a7179; font-size: 14px; }
+button { cursor: pointer; }
+input, select, textarea { padding: 6px 8px; font-size: 16px; }
+.error { color: #b42318; }
+.ok { color: #14532d; }
+.tarjeta { border: 2px solid #2563eb; padding: 16px; border-radius: 8px; }
