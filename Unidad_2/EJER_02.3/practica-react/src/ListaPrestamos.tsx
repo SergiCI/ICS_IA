@@ -39,7 +39,7 @@ export default function ListaPrestamos() {
                         <h3>Titulo: {prestamo.titulo}</h3>
                         <p>Alumno: {prestamo.alumno}</p>
                         <p>Devuelto: {prestamo.devuelto ? 'Devuelto' : 'Pendiente'}</p>
-                        <button onClick={() => setprestamoSeleccionado}>Seleccionar Prestamo</button>
+                        <button onClick={() => setprestamoSeleccionado(prestamo)}>Seleccionar Prestamo</button>
                         {!prestamo.devuelto && (
                             <button onClick={() => marcadevuelto(prestamo.id)}>Marcar como devuelto</button>
                         )}
