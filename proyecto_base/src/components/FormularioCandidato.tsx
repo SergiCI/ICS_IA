@@ -1,6 +1,6 @@
 // RETO 5 · Componente FormularioCandidato
 // Ahora es un formulario estático que no hace nada. Hay que hacerlo funcional.
-import { useState,type FormEvent } from "react";
+import { useState,type SubmitEvent } from "react";
 import type { Candidato } from '../tipos';
 
  interface props {
@@ -20,7 +20,7 @@ export function FormularioCandidato({ alAnadir }: props) {
     numListaValNum >= 1 &&
     numListaValNum <= 30;
 
-  function manejarEnvio(evento: FormEvent<HTMLFormElement>) {
+  function manejarEnvio(evento: SubmitEvent<HTMLFormElement>) {
     evento.preventDefault();
     if (!esValido) return;
 
