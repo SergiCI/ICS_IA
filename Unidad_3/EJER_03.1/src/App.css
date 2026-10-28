@@ -1,0 +1,115 @@
+.app-container {
+  max-width: 600px;
+  margin: 2rem auto;
+  padding: 1.5rem;
+  font-family: system-ui, -apple-system, sans-serif;
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  text-align: center;
+  color: #333;
+}
+
+/* Filtros */
+.filtros-container {
+  display: flex;
+  gap: 0.5rem;
+  justify-content: center;
+  margin-bottom: 1.5rem;
+}
+
+.btn-filtro {
+  padding: 0.5rem 1rem;
+  border: 1px solid #ccc;
+  background-color: #f5f5f5;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: 500;
+  transition: all 0.2s ease;
+}
+
+.btn-filtro--activo {
+  background-color: #1976d2;
+  color: white;
+  border-color: #1976d2;
+}
+
+/* Resumen */
+.resumen-mensaje {
+  text-align: center;
+  font-weight: 500;
+  color: #555;
+  margin-bottom: 1.5rem;
+}
+
+.resumen-exito {
+  color: #2e7d32;
+  background-color: #e8f5e9;
+  padding: 0.5rem;
+  border-radius: 4px;
+}
+
+/* Lista y Tareas */
+.lista-tareas {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+.tarea-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.75rem 1rem;
+  background-color: #fafafa;
+  border-radius: 4px;
+  border-left: 5px solid transparent;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
+  transition: background-color 0.2s ease, opacity 0.2s ease;
+}
+
+/* Clases según prioridad */
+.tarea--alta { border-left-color: #e53935; } /* Rojo */
+.tarea--media { border-left-color: #fbc02d; } /* Amarillo */
+.tarea--baja { border-left-color: #43a047; } /* Verde */
+
+/* Tarea completada */
+.tarea--completada {
+  opacity: 0.55;
+  background-color: #eeeeee;
+}
+
+.tarea--completada .tarea-texto {
+  text-decoration: line-through;
+  color: #777;
+}
+
+.tarea-content {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  cursor: pointer;
+  flex-grow: 1;
+}
+
+.tarea-texto {
+  font-size: 1rem;
+}
+
+/* Badges de prioridad con texto */
+.badge {
+  padding: 0.25rem 0.5rem;
+  border-radius: 4px;
+  font-size: 0.75rem;
+  font-weight: bold;
+}
+
+.badge--alta { background-color: #ffebee; color: #c62828; }
+.badge--media { background-color: #fffde7; color: #f57f17; }
+.badge--baja { background-color: #e8f5e9; color: #2e7d32; }
