@@ -1,0 +1,6 @@
+[
+  { "id": 1, "titulo": "TypeScript", "completada": true },
+  { "id": 2, "titulo": "Introducción a React", "completada": true },
+  { "id": 3, "titulo": "Listas y renderizado condicional", "completada": true },
+  { "id": 4, "titulo": "Hooks de React", "completada": false }
+]
